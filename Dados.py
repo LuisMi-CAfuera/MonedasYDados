@@ -18,6 +18,13 @@ def tiradaDado():
 
 if __name__ == "__main__":
 
+    for x in range(11):
+        d['moneda']['cara'][x] = 0
+        d['moneda']['cruz'][x] = 0
+
+    for y in range(3,19):
+        d['dados'][y] = 0
+
     for _ in range(1000000):
         contCara=0
         contCruz=0
